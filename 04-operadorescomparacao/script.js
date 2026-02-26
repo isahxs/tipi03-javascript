@@ -1,0 +1,30 @@
+// comparação
+const numero1 = 1;
+const numero2 = 5;
+console.log(numero1 < numero2);
+console.log(numero1 > numero2);
+
+const numero3 = 18;
+const numero4 = 18;
+console.log(numero3 >= numero4);
+console.log(numero3 <= numero4); /* é apenas do mesmo tipo */
+
+// comparação de igualdade
+const a = 1;
+const b = 1;
+console.log(a === b); // estritamente igual
+
+const c = 1;
+const d = "a";
+console.log(c === d); // igual a
+
+// comparação de diferenciação
+const e = 1;
+const f = 2;
+console.log(e !== f ); // estritamente diferente, então dá true pois afirma que são valores diferentes
+
+const g = 1;
+const h = "1";
+console.log(g != h); // dará false pois se entende que o dev digitou errado e o "1" literal vira 1 numérico
+
+
